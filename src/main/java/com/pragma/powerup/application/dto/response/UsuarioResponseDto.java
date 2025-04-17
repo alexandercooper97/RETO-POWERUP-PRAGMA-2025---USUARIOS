@@ -14,7 +14,7 @@ public class UsuarioResponseDto {
     private String celular;
     private LocalDate fechaNacimiento; 
     private String correo;
-    private String clave; // Solo si es estrictamente necesario exponerla
+    private String clave; // Solo si es necesario exponerla
     private Rol rol; // DTO específico para el rol
 
     // Versión segura (recomendada) - Sin exposición de contraseña
